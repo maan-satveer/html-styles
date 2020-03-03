@@ -1,0 +1,226 @@
+/* styles for Mobile-First Strategy */
+
+/* Styles for body element */
+body{
+  text-align: center;
+  width: 100%;
+}
+
+/* img {
+  width: 100%;
+} */
+
+/* Styles for the container id */
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styles for the header id */
+header {
+  border-radius: 0.5em;
+  margin: auto;
+  text-align: left;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+header h1 {
+  text-align: left;
+  padding: 1%;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* Styles for the nav element */
+nav {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* add styles for unordered list in the nav */
+
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* add style for the list items in the nav */
+nav li {
+  background-color: #9d9d93;
+  border-radius: 2em;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* add styles for the anchor tag insidie the li */
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Styles for main div */
+main {
+  display: block;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 2em 0 2em 0;
+  opacity: 0.85;
+  background-color: #ffffff;
+}
+
+p {
+  text-align: justify;
+  margin-right: 2em;
+}
+
+/* styles for the tablet class */
+section {
+  float: left;
+  margin: 2%;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 15%;
+  border-radius: 1em;
+}
+
+/* footer style */
+footer{
+  font-size: 0.7em;
+  text-align: center;
+  padding: 1%;
+  border: 1%;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+/* add style for the mobile class */
+.mobile {
+  display: inline;
+}
+
+/* add style for the Desktopclass */
+.desktop {
+  display: none;
+}
+
+
+@media only screen and (max-width: 481px) {
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header h3 {
+    font-family: "Monotype Corsiva", Georgia, "Times New Roman", serif;
+    font-weight: italic;
+    margin: 1%;
+    margin-top: -1.4em;
+  }
+
+  header img {
+    height: 4em;
+    width: 30%;
+  }
+
+  section {
+    margin-top: -1.5em;
+    float: none;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 1%;
+  }
+
+  aside {
+    margin-top: -1.4em;
+    float: none;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  aside h1 {
+    text-align: left;
+  }
+
+  aside ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  /* add style for the list items in the nav */
+  aside li {
+    background-color: #9d9d93;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+  }
+
+  /* add styles for the anchor tag insidie the li */
+  aside li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 628px) {
+
+/* Styles specifies the horizontal display for the nav li */
+nav {
+  background-color: #1d1d1c;
+  text-align: left;
+  margin-right: 1em;
+}
+
+nav li {
+  display: inline;
+  white-space: nowrap;
+  border-radius: 0;
+  background-color: transparent;
+ }
+
+
+/* Styles for main */
+main {
+  clear: left;
+  border-radius: 0;
+  overflow: auto;
+  }
+
+  /* Styles for H1 */
+  h1 {
+    text-align: center;
+  }
+
+
+/* Stylesfor mobile class */
+.mobile {
+  display: none;
+  }
+
+/* Stylesfor desktop class */
+.desktop {
+  display: inline;
+  }
+}

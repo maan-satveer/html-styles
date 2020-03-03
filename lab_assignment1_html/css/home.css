@@ -1,0 +1,145 @@
+body{
+  background-color: #A7E7FF ;
+}
+
+/* Styles for the container id */
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styles for the header id */
+header {
+  /* margin-top: 0.2em;
+  background-color: #ffffff;
+  border-radius: 0.5em; */
+  text-align: center;
+  margin-bottom: 5em;
+  background-color: lightblue;
+}
+
+/* Styles for the nav element */
+nav {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -1.5em;
+  /* padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #ffffff;
+  border-radius: 20px; */
+}
+
+/* add styles for unordered list in the nav */
+
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* add style for the list items in the nav */
+nav li {
+  background-color: #9d9d93;
+  border-radius: 2em;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* add styles for the anchor tag insidie the li */
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* add style for the mobile class */
+.mobile {
+  display: inline;
+}
+
+/* add style for the Desktopclass */
+.desktop {
+  display: none;
+}
+
+/* Styles for main div */
+main {
+  display: block;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 2em 0 2em 0;
+  opacity: 0.85;
+  background-color: #ffffff;
+  /* border-top: solid 0.2em #009933;
+  border-bottom: solid 0.2em #009933; */
+}
+
+/* footer style */
+footer{
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 2em;
+  color: #1d1d1c;
+}
+
+/* Styles for anchor tag in main element */
+main a {
+  background-color: #9d9d93;
+  border-radius: 1em;
+  padding: 0.5em;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Styles */
+
+/* styles for the tablet class */
+.tablet {
+  display: none;
+}
+
+/* Styles for the cequip class */
+.equip {
+  /* float: left;
+  margin-right: 20px; */
+  display: none;
+}
+article{
+  float: left;
+  width: 70%;
+}
+section {
+  float: right;
+  width: 20%;
+}
+/* section ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+} */
+
+/* add style for the list items in the nav */
+section li {
+  background-color: #9d9d93;
+  border-radius: 2em;
+  list-style-type: none;
+  text-align: center;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* add styles for the anchor tag insidie the li */
+section li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+p {
+  text-align: justify;
+}
